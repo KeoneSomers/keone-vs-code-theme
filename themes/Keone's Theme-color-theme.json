@@ -14,7 +14,8 @@
         "activityBar.border": "#383838",
         "statusBar.background": "#181818",
         "statusBar.border": "#383838",
-        "sideBar.foreground": "#D1CDCA"
+        "sideBar.foreground": "#D1CDCA",
+        "editor.lineHighlightBackground": "#292929"
     },
     "tokenColors": [
         {
