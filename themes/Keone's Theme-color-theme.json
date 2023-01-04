@@ -22,15 +22,14 @@
             "name": "Comment",
             "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#546E7A"
+                "foreground": "#898989"
             }
         },
         {
             "name": "Variables",
             "scope": ["variable", "string constant.other.placeholder"],
             "settings": {
-                "foreground": "#EEFFFF"
+                "foreground": "#AF9CFF"
             }
         },
         {
@@ -51,7 +50,7 @@
             "name": "Keyword, Storage",
             "scope": ["keyword", "storage.type", "storage.modifier"],
             "settings": {
-                "foreground": "#C792EA"
+                "foreground": "#74D2CE"
             }
         },
         {
@@ -71,7 +70,7 @@
                 "keyword.other.substitution"
             ],
             "settings": {
-                "foreground": "#89DDFF"
+                "foreground": "#D1D1D1"
             }
         },
         {
@@ -82,7 +81,7 @@
                 "markup.deleted.git_gutter"
             ],
             "settings": {
-                "foreground": "#f07178"
+                "foreground": "#AF9CFF"
             }
         },
         {
@@ -95,21 +94,21 @@
                 "keyword.other.special-method"
             ],
             "settings": {
-                "foreground": "#82AAFF"
+                "foreground": "#EBC88D"
             }
         },
         {
             "name": "Block Level Variables",
             "scope": ["meta.block variable.other"],
             "settings": {
-                "foreground": "#f07178"
+                "foreground": "#D1D1D1"
             }
         },
         {
             "name": "Other Variable, String Link",
             "scope": ["support.other.variable", "string.other.link"],
             "settings": {
-                "foreground": "#f07178"
+                "foreground": "#E394DC"
             }
         },
         {
@@ -125,7 +124,7 @@
                 "keyword.other"
             ],
             "settings": {
-                "foreground": "#F78C6C"
+                "foreground": "#74D2CE"
             }
         },
         {
@@ -140,7 +139,7 @@
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "foreground": "#C3E88D"
+                "foreground": "#E394DC"
             }
         },
         {
@@ -221,7 +220,7 @@
             "name": "Attributes",
             "scope": ["entity.other.attribute-name"],
             "settings": {
-                "foreground": "#C792EA"
+                "foreground": "#AF9CFF"
             }
         },
         {
