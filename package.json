@@ -1,0 +1,22 @@
+{
+    "name": "keone-s-theme",
+    "displayName": "Keone's Theme",
+    "publisher": "KeoneS",
+    "description": "",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Keone's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Keone's Theme-color-theme.json"
+            }
+        ]
+    }
+}
