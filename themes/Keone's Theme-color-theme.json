@@ -8,7 +8,11 @@
         "sideBar.background": "#181818",
         "sideBar.border": "#383838",
         "gitDecoration.modifiedResourceForeground": "#007acc",
+        "editorOverviewRuler.modifiedForeground": "#007acc",
+        "editorGutter.modifiedBackground": "#007acc",
         "gitDecoration.addedResourceForeground": "#4CA988",
+        "editorOverviewRuler.addedForeground": "#4CA988",
+        "editorGutter.addedBackground": "#4CA988",
         "tab.inactiveForeground": "#D1CDCA",
         "activityBar.background": "#181818",
         "activityBar.border": "#383838",
@@ -70,16 +74,19 @@
                 "keyword.other.substitution"
             ],
             "settings": {
-                "foreground": "#D1D1D1"
+                "foreground": "#898989"
             }
         },
         {
             "name": "Tag",
-            "scope": [
-                "entity.name.tag",
-                "meta.tag.sgml",
-                "markup.deleted.git_gutter"
-            ],
+            "scope": ["entity.name.tag"],
+            "settings": {
+                "foreground": "#87C3FF"
+            }
+        },
+        {
+            "name": "Custom Tag",
+            "scope": ["entity.name.tag.template", "entity.name.tag.script"],
             "settings": {
                 "foreground": "#AF9CFF"
             }
